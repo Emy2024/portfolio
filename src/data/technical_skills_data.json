@@ -1,0 +1,82 @@
+[
+  {
+    "Text": "HTML 5",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/html5.svg"
+  },
+  {
+    "Text": "CSS",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/css3.svg"
+  },
+  {
+    "Text": "SASS",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/sass.svg"
+  },
+  {
+    "Text": "JavaScript",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/javascript.svg"
+  },
+  {
+    "Text": "React.js",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/react.svg"
+  },
+  {
+    "Text": "Node.js",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/node-js.svg"
+  },
+  {
+    "Text": "Express.js",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/express-js.svg"
+  },
+  {
+    "Text": "MongoDB",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/mongodb.svg"
+  },
+  {
+    "Text": "ApexChart / Chart.js",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/chartJSapexchart.svg"
+  },
+    {
+    "Text": "Leaflet.js",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/Leaflet.svg"
+  },
+  {
+    "Text": "Bootstrap",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/bootstrap.svg"
+  },
+  {
+    "Text": "Figma",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/figma.svg"
+  },
+  {
+    "Text": "Wordpress",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/wordpress.svg"
+  },
+  {
+    "Text": "SEO",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/seo.svg"
+  },
+  {
+    "Text": "Git / Github",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/github.svg"
+  },
+  {
+    "Text": "VSCode / Cursor",
+    "Image": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/1254425d1b08aff4f5611e1b72aaddf4e9418803/public/vscode.svg"
+  },
+  {
+    "Text": "Illustrator",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/illustrator.svg"
+  },
+  {
+    "Text": "InDesign",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/indesign.svg"
+  },
+  {
+    "Text": "Photoshop",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/photoshop.svg"
+  },
+  {
+    "Text": "Premiere Pro",
+    "Image": "https://emy2024.github.io/emmanuelle-rey/premiere.svg"
+  }
+]
