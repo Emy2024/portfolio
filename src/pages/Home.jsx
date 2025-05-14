@@ -50,7 +50,7 @@ function Home(){
               {data.map((realisation) => {
                 return(
                   <li key={realisation.id}>
-                    <Link className="realisations__cardsLink" to={`/realisations/${realisation.id}`}>
+                    <Link className="realisations__cardsLink" to={`/portfolio-realisations/${realisation.id}`}>
                       <Card 
                         title={realisation.nomProjet} 
                         date={realisation.dateLivraison}
