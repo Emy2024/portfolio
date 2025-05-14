@@ -30,7 +30,7 @@ function DetailRealisation(props){
       </div>
       <div className="detailRea__ligne">
           <div className="detailRea__subtitle">Société</div>
-          <div className="detailRea__description">Projet élaboré dans le cadre de ma formation OpenClassrooms.</div>
+          <div className="detailRea__description">{props.societe}</div>
       </div>
       <div className="detailRea__ligne">
           <div className="detailRea__subtitle">Date de livraison</div>
