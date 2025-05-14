@@ -147,7 +147,6 @@
     list-style: none;
     display: grid;
     gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 100%;
     @include mixins.tablet{
