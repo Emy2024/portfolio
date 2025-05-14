@@ -1,10 +1,35 @@
 [
   {
+    "id": "0",
+    "nomProjet": "PANORAMA DES ACCIDENTS CORPORELS EN HAUTE-GARONNE (2022)",
+    "concept": "Ce projet personnel a pour objectif de proposer un outil visuel à destination du grand public en valorisant des données issues de l'OpenData.",
+    "mission": "Je me suis donnée pour mission de valoriser les données issues des Bulletins d’Analyse des Accidents Corporels de la Circulation (BAAC) relevés par les forces de l’ordre. Ces données sont en .csv et .geojson. Mon objectif est double : sensibiliser le grand public sur les accidents corporels qui surviennent en Haute-Garonne (types d'accidents, conditions dans lesquels se déroulent ces accidents, données percutantes) et me perfectionner en JavaScript vanilla et autres bibliothèques associées.",
+    "mission_court":  "Ce projet personnel a pour objectif de proposer un outil visuel à destination du grand public en valorisant des données issues de l'OpenData.",
+    "societe": "Projet personnel",
+    "technologie": [
+      "CSS", 
+      "JavaScript Vanilla", 
+      "Leaflet.js", 
+      "ApexCharts.js",
+      "Chart.js"
+    ],
+    "dateLivraison": "Mai 2025",
+    "github": "https://emy2024.github.io/projet1-accidents-corporels-31/",
+    "coverHome": "https://raw.githubusercontent.com/Emy2024/portfolio/refs/heads/main/public/Accidents31/accident-1.webp",
+    "coverRealisations": "https://raw.githubusercontent.com/Emy2024/portfolio/refs/heads/main/public/Accidents31/accident-cover.webp",
+    "images": [
+      "https://raw.githubusercontent.com/Emy2024/portfolio/refs/heads/main/public/Accidents31/accident-1.webp",
+      "https://raw.githubusercontent.com/Emy2024/portfolio/refs/heads/main/public/Accidents31/accident-3.webp",
+      "https://raw.githubusercontent.com/Emy2024/portfolio/refs/heads/main/public/Accidents31/accident-4.webp"
+    ]
+  },
+  {
     "id": "1",
     "nomProjet": "KASA",
     "concept": "KASA est un site web de location d'appartements entre particuliers.",
     "mission": "Ce projet responsive a été développé de zéro en suivant les maquettes Figma d'un designer. L'objectif est de maîtriser les bases de REACT et la logique de SASS. Deux problématiques principales ont été rencontrées : la réalisation du slideshow et le système d'étoiles dans les pages dédiées aux logements. Concernant le slideshow, ont été mis en place des fonctions d'incrémentation et de décrémentation avec gestion d'états (useStates). Le système d'étoiles a, quant à lui, été créé à partir d'un tableau vide de 5 éléments, dans lequel une fonction ternaire permet de disposer d'étoiles colorées ou grisées.",
     "mission_court":"Ce projet a été développé de zéro afin de maîtriser les bases de REACT.",
+    "societe": "Projet réalisé dans le cadre de ma formation OpenClassrooms",
     "technologie": [
       "REACT 19.0.0",
       "DART SASS"
@@ -25,6 +50,7 @@
     "concept": "Mon Vieux Grimoire est une petite chaîne de librairies dont l'objectif est de lancer un site de référencement et de notation de livres.",
     "mission": "Le front-end du site est réalisé en React. L'objectif de ce projet est d'élaborer le back-end du site avec la connexion à l'API RESTfull. Le projet possède un système d'authentification ainsi qu'une gestion des fichiers utilisateurs afin de publier, supprimer ou modifier des livres. Il est en outre conforme aux bonnes pratiques du Green Code. La problématique principale rencontrée est liée à la logique JavaScript côté serveur, qui diffère de la logique côté front-end. Après plusieurs recherches et grâce aux explications détaillées du Mentor, je suis parvenue à comprendre les mécanismes liés à la validation, au traitement, au stockage et la sécurisation des données. Plusieurs dépendances ont par ailleurs été utilisées dans le projet : bcrypt, dot.env, express, express-mongo-sanitize, helmet, jsonwebtoken, mongoose-unique-validator, multer, sharp.",
     "mission_court": "L'objectif de ce projet a été d'élaborer le back-end du site avec la connexion à l'API RESTfull.",
+    "societe": "Projet réalisé dans le cadre de ma formation OpenClassrooms",
     "technologie": [
       "MongoDB", 
       "Mongoose"
@@ -45,6 +71,7 @@
     "concept": "Sophie Bluel est architecte d’intérieur : son site est une vitrine auprès de ses clients et potentiels clients.",
     "mission": "A partir du back-end pré-existant, ce projet a pour objectif l'élaboration du front-end en utilisant du JavaScript vanilla. L'idée est de pouvoir récupérer dynamiquement les travaux via une API. L'architecte doit également être en mesure de se connecter sur le site en mode Administrateur afin de pouvoir en ajouter ou en supprimer. La principale problématique rencontrée a été l'organisation même du code. Afin de clarifier le code, il a été convenu de diviser le projet de manière modulaire afin d'obtenir des pages et des fonctions plus courtes et par conséquent plus simples (principe du Keep It Simple Stupid).",
     "mission_court":"Ce projet a pour objectif l'élaboration du front-end en JavaScript.",
+    "societe": "Projet réalisé dans le cadre de ma formation OpenClassrooms",
     "technologie": [
       "JavaScript",
       "API Swagger"
@@ -57,28 +84,6 @@
       "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_1.webp",
       "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_2.webp",
       "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/SophieBluel/sophie_bluel_3.webp"
-    ]
-  },
-  {
-    "id": "4",
-    "nomProjet": "NINA CARDUCCI PHOTOGRAPHE",
-    "concept": "Nina Carducci est photographe et possède un portfolio en ligne avec de nombreuses photographies illustrant son travail.",
-    "mission": "A partir d'un site déjà existant, l'objectif est d'optimiser le site en termes de SEO (desktop uniquement) et en matière d'accessibilité. Ce projet a impliqué notamment la conversion des images en un format WebP adapté, l'ajout de balises alternatives, l'ajout de méta data enrichies, l'ajout de liens CDN et la modification de certains contrastes. La principale problématique rencontrée a concerné le débug du site (partie en jQuery). J'ai pu toutefois trouver les solutions du fait de la similarité du jQuery avec le JavaScript vanilla.",
-    "mission_court":  "A partir d'un site déjà existant, l'objectif a été d'optimiser le site en termes de SEO et d'accessibilité.",
-    "technologie": [
-      "HTML", 
-      "CSS", 
-      "Ligthouse", 
-      "Wave"
-    ],
-    "dateLivraison": "Janvier 2025",
-    "github": "https://github.com/Emy2024/OCR_projet4/",
-    "coverHome": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_1.webp",
-    "coverRealisations": "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducciCover.webp",
-    "images": [
-      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_1.webp",
-      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_2.webp",
-      "https://raw.githubusercontent.com/Emy2024/emmanuelle-rey/refs/heads/main/public/NinaCarducci/nina_carducci_3.webp"
     ]
   }
 ]
