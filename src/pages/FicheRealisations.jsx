@@ -50,6 +50,7 @@ function FicheRealisations(){
                         concept={element.concept}
                         mission={element.mission}
                         technologie ={element.technologie}
+                        societe={element.societe}
                         date={element.dateLivraison}
                     />
                 ))}
@@ -79,7 +80,7 @@ function FicheRealisations(){
                         {data.map((realisation) => {
                             return(
                             <li className="ficheRea__li" key={realisation.id}>
-                                <Link className="realisations__cardsLink" to={`/realisations/${realisation.id}`}>
+                                <Link className="realisations__cardsLink" to={`/portfolio-realisations/${realisation.id}`}>
                                 <Card 
                                     title={realisation.nomProjet} 
                                     date={realisation.dateLivraison}
