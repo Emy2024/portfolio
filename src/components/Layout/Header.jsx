@@ -11,7 +11,7 @@ function Header() {
   return (
     <>
     <div className='header'>
-      <Link to={"/emmanuelle-rey"}>
+      <Link to={"/portfolio"}>
         <div className='header__logoContainer'>
           <img className='header__logo' src={logo} alt="Emmanuelle Rey" />
         </div>
@@ -19,17 +19,17 @@ function Header() {
       <div className='header__navigation'>
       <NavLink 
           className={getNavLinkClass}
-          to={"/emmanuelle-rey"}
+          to={"/portfolio"}
         > Accueil
         </NavLink>
         <NavLink 
           /* className="header__link"  */
-          to={"a-propos"}
+          to={"/portfolio-a-propos"}
           className={getNavLinkClass}
         > A propos
         </NavLink>
         <NavLink 
-          to={"contact"}
+          to={"/portfolio-contact"}
           className={getNavLinkClass}
           >Contact
           </NavLink>
