@@ -18,11 +18,11 @@ createRoot(document.getElementById('root')).render(
       <ScrollToTop /> 
         < Header />
           <Routes>
-            <Route path="/emmanuelle-rey" element={<Home />} />  
-            <Route path="/a-propos" element={<Apropos />} />
-            <Route path="/realisations/:id" element={<Realisations />}></Route>
-            <Route path="/mentions-legales" element={<MentionsLegales />}></Route>
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Home />} />  
+            <Route path="/portfolio-a-propos" element={<Apropos />} />
+            <Route path="/portfolio-realisations/:id" element={<Realisations />}></Route>
+            <Route path="/portfolio-mentions-legales" element={<MentionsLegales />}></Route>
+            <Route path="/portfolio-contact" element={<Contact />} />
             <Route path="*" element={<Error />} />
           </Routes> 
         < Footer />
