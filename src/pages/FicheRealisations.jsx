@@ -30,7 +30,7 @@ function FicheRealisations(){
                             <Button
                                 key={index}
                                 link={element.github}
-                                name="Code Github"
+                                name="Accédez au projet"
                             />
                         ))}
 {/*                         {dataRealisations.map((element, index) => (
