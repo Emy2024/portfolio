@@ -62,6 +62,7 @@
     }
     @include mixins.mobile {
         height: 61vh;
+        width: 100%;
     }
 }
 
