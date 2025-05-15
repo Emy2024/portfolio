@@ -5,10 +5,10 @@ import skillsPicture from "../../assets/alesia_kazantceva_unsplash.webp"
 function Skills(){
     return(
         <div className="skills">
-            <div className="skills__left">
+{/*             <div className="skills__left">
                 <div className="skills__leftCover"></div>
                 <img src={skillsPicture} alt="Photographie d'un ordinateur sur une table dans un environnement cosy"></img>
-            </div>
+            </div> */}
 
             <div className="technicalSkills">
                     <h2 className="technicalSkills__Title">Compétences techniques</h2>
