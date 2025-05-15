@@ -71,7 +71,7 @@ function Home(){
       </div>
       <div className="enSavoirPlus">
       <Button 
-        link="/a-propos"
+        link="/portfolio-a-propos"
         name="Consultez mon parcours"
       />
       </div>
