@@ -4,14 +4,13 @@
     "nomProjet": "PANORAMA DES ACCIDENTS CORPORELS EN HAUTE-GARONNE (2022)",
     "concept": "Ce projet personnel a pour objectif de proposer un outil visuel à destination du grand public en valorisant des données issues de l'OpenData.",
     "mission": "Je me suis donnée pour mission de valoriser les données issues des Bulletins d’Analyse des Accidents Corporels de la Circulation (BAAC) relevés par les forces de l’ordre. Ces données sont en .csv et .geojson. Mon objectif est double : sensibiliser le grand public sur les accidents corporels qui surviennent en Haute-Garonne (types d'accidents, conditions dans lesquels se déroulent ces accidents, données percutantes) et me perfectionner en JavaScript vanilla et autres bibliothèques associées.",
-    "mission_court":  "Ce projet personnel a pour objectif de proposer un outil visuel à destination du grand public en valorisant des données issues de l'OpenData.",
+    "mission_court":  "Ce projet personnel valorise des données issues de l'OpenData.",
     "societe": "Projet personnel",
     "technologie": [
-      "CSS", 
-      "JavaScript Vanilla", 
-      "Leaflet.js", 
-      "ApexCharts.js",
-      "Chart.js"
+      "JavaScript", 
+      "Leaflet", 
+      "ApexCharts",
+      "Chart"
     ],
     "dateLivraison": "Mai 2025",
     "github": "https://shorturl.at/auTnx",
