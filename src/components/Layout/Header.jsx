@@ -21,18 +21,18 @@ function Header() {
           className={getNavLinkClass}
           to={"/portfolio"}
         > Accueil
-        </NavLink>
-        <NavLink 
+      </NavLink>
+      <NavLink 
           /* className="header__link"  */
           to={"/portfolio-a-propos"}
           className={getNavLinkClass}
         > A propos
-        </NavLink>
-        <NavLink 
+      </NavLink>
+      <NavLink 
           to={"/portfolio-contact"}
           className={getNavLinkClass}
           >Contact
-          </NavLink>
+      </NavLink>
       </div>
     </div>
     </>
