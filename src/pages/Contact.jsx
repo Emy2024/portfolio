@@ -1,4 +1,4 @@
-import { useState } from "react";
+/* import { useState } from "react";
 import picture from "../assets/lauren_mancke_unsplash.webp"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -121,14 +121,123 @@ import emailjs from '@emailjs/browser';
 export default Contact
 
 
+ */
 
+import React, { useState } from 'react';
+import picture from "../assets/lauren_mancke_unsplash.webp";
 
+function Contact() {
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState('idle');
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
 
-  
+  const validate = () => {
+    const newErrors = {};
+    if (!formData.name) newErrors.name = 'Champ obligatoire';
+    if (!formData.email) {
+      newErrors.email = 'Champ obligatoire';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = "Format d'email invalide";
+    }
+    if (!formData.message) newErrors.message = 'Champ obligatoire';
+    return newErrors;
+  };
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const validationErrors = validate();
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
 
+    setStatus('sending');
 
+    try {
+      const response = await fetch('https://formspree.io/f/mzzryodl', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
+      if (response.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+        setErrors({});
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
+  };
 
+  return (
+    <div className="contact">
+      <div className="contact__introduction">
+        <h1>Contact</h1>
+        <p className="contact__paragraph">Vous recherchez une personne motivée, dynamique et qui apprend vite ? Je suis la personne qu'il vous faut !</p>
+        <div className="contact__formAndPicture">
+          <div className="contact__form">
+            <form onSubmit={handleSubmit} className="form__container">
+              <div className="form__labelAndInput">
+                <label className="form__label">Votre nom</label>
+                <input
+                  className="form__input"
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                />
+                {errors.name && <p className="form__inputError">{errors.name}</p>}
+              </div>
+              <div className="form__labelAndInput">
+                <label className="form__label">Votre courriel</label>
+                <input
+                  className="form__input"
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                />
+                {errors.email && <p className="form__inputError">{errors.email}</p>}
+              </div>
+              <div className="form__labelAndInput">
+                <label className="form__label">Votre message</label>
+                <textarea
+                  className="form__input message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                />
+                {errors.message && <p className="form__inputError">{errors.message}</p>}
+              </div>
+              <input
+                type="submit"
+                value={status === 'sending' ? 'Envoi...' : 'Envoyer'}
+                className="btn"
+                disabled={status === 'sending'}
+              />
+              {status === 'success' && <p className="form_successMessage">Message envoyé !</p>}
+              {status === 'error' && <p className="form__inputError">Erreur lors de l'envoi.</p>}
+            </form>
+          </div>
+          <div className="contact__pictures">
+            <div className="contact__pictureCover"></div>
+            <img className="contact__picture" src={picture} alt="contact illustration" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
+export default Contact
